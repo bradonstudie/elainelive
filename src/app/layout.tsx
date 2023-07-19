@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "elaine elaine live",
-  description: "elaine elaine is a band",
+  description: "elaine elaine is a band that makes music",
 };
 
 export default function RootLayout({
