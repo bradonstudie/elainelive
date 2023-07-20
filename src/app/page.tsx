@@ -1,13 +1,12 @@
 import Image from "next/image";
-import logo from "../../public/logo.png";
-import styles from "./page.module.css";
+import homepageFlyer from "../../public/homepage-flyer.png";
 
 export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.center}>
-        <Image src={logo} alt="Elaine Elaine" className={`${styles.logo}`} />
-      </div>
-    </main>
-  );
+    return (
+        <Image
+            src={homepageFlyer}
+            alt="elaine elaine monstrosity"
+            style={{ width: "100%", maxWidth: "50rem", height: "auto" }}
+        />
+    );
 }
