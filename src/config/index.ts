@@ -1,3 +1,4 @@
 import { menuItems } from "./MenuItems";
+import { musicItems } from "./MusicItems";
 
-export { menuItems };
+export { menuItems, musicItems };

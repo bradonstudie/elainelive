@@ -1,3 +1,4 @@
 import { MenuItem } from "./MenuItem";
+import { MusicItem } from "./MusicItem";
 
-export type { MenuItem };
+export type { MenuItem, MusicItem };
