@@ -14,12 +14,19 @@ export default function About() {
                 }}
                 gifConfig={{ source: aboutGif, alt: "love forever :)" }}
             />
-            <div style={{ maxWidth: "50rem" }}>
-                <b style={{ fontSize: "2rem", fontFamily: "sans-serif" }}>
-                    <span style={{ fontSize: "3rem" }}>O</span>n the evening of
-                    the last day of October, 1501
-                </b>
+            <div
+                style={{
+                    maxWidth: "50rem",
+                    border: "3px dashed black",
+                    padding: "1rem",
+                }}
+            >
                 <p>
+                    <b style={{ fontSize: "2rem", fontFamily: "sans-serif" }}>
+                        <span style={{ fontSize: "3rem" }}>O</span>n the evening
+                        of the last day of October, 1501
+                    </b>
+                    <br />
                     Cesare Borgia arranged a banquet in his chambers in the
                     Vatican with &quot;fifty honest prostitutes&quot;,[2] called
                     courtesans, who danced after dinner with the attendants and
