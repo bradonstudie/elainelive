@@ -64,3 +64,18 @@ body {
         height: 70vh;
     }
 }
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th {
+    text-align: start;
+}
+
+td,
+th {
+    padding: 0.25rem;
+}
