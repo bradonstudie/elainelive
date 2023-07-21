@@ -1,33 +1,19 @@
-import Image from "next/image";
+import { ImageDisplay } from "@/components/ImageDisplay";
 import Link from "next/link";
 import { musicItems } from "@/config";
 import musicOne from "../../../public/music-1.jpg";
 import musicTwo from "../../../public/music-2.jpg";
 
 export default function Music() {
-    const imageStyle = {
-        height: "auto",
-        width: "50%",
-        maxWidth: "15rem",
-        margin: "0.5rem",
-    };
-
     return (
         <>
-            <div
-                style={{
-                    display: "flex",
-                    flexWrap: "wrap",
-                    alignItems: "center",
-                    justifyContent: "space-around",
-                }}
-            >
-                <Image src={musicOne} alt="stung by bees" style={imageStyle} />
-                <Image src={musicTwo} alt="stung by bees" style={imageStyle} />
-            </div>
+            <ImageDisplay
+                imageOneConfig={{ source: musicOne, alt: "technology god" }}
+                imageTwoConfig={{ source: musicTwo, alt: "stung by bees" }}
+            />
             <h2 style={{ fontWeight: "normal" }}>
                 You can stream{" "}
-                <span style={{ fontFamily: "cursive" }}>elaine elaine</span>
+                <span style={{ fontFamily: "fantasy" }}>elaine elaine</span>
                 &trade; <b>on the web</b> at any of these hyperlinks:
             </h2>
             <ul style={{ fontSize: "1.25rem", margin: "1rem 0rem" }}>
