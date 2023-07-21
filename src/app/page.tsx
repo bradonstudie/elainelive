@@ -6,7 +6,7 @@ export default function Home() {
         <Image
             src={homepageFlyer}
             alt="elaine elaine monstrosity"
-            style={{ width: "100%", maxWidth: "50rem", height: "auto" }}
+            className="hero-image"
         />
     );
 }
