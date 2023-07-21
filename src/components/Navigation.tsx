@@ -27,7 +27,7 @@ export const Navigation = () => {
                     href={item.link}
                     className={currentRoute === `${item.link}` ? "active" : ""}
                 >
-                    <h2 style={{ fontWeight: "lighter" }}>{item.title}</h2>
+                    <h2>{item.title}</h2>
                 </Link>
             ))}
         </div>

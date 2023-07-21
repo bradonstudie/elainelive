@@ -13,10 +13,10 @@ export default function Music() {
                 imageTwoConfig={{ source: musicTwo, alt: "stung by bees" }}
                 gifConfig={{ source: musicGif, alt: "music" }}
             />
-            <h2 style={{ fontWeight: "normal" }}>
+            <h2>
                 You can stream{" "}
-                <span style={{ fontFamily: "fantasy" }}>elaine elaine</span>
-                &trade; <b>on the web</b> at any of these hyperlinks:
+                <span style={{ fontFamily: "sans-serif" }}>elaine elaine</span>
+                &trade; <i>on the web</i> at any of these hyperlinks:
             </h2>
             <ul style={{ fontSize: "1.25rem", margin: "1rem 0rem" }}>
                 {musicItems.map((item) => (
