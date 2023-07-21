@@ -1,5 +1,6 @@
 import { ImageDisplay } from "@/components/ImageDisplay";
 import Link from "next/link";
+import musicGif from "../../../public/music.gif";
 import { musicItems } from "@/config";
 import musicOne from "../../../public/music-1.jpg";
 import musicTwo from "../../../public/music-2.jpg";
@@ -10,6 +11,7 @@ export default function Music() {
             <ImageDisplay
                 imageOneConfig={{ source: musicOne, alt: "technology god" }}
                 imageTwoConfig={{ source: musicTwo, alt: "stung by bees" }}
+                gifConfig={{ source: musicGif, alt: "music" }}
             />
             <h2 style={{ fontWeight: "normal" }}>
                 You can stream{" "}

@@ -7,8 +7,8 @@ export const Footer = () => (
         }}
     >
         <p style={{ marginBottom: "0.25rem;" }}>
-            If you study the material on this website, you will understand the
-            secrets of the universe.
+            If you meditate upon this website, you will understand the secrets
+            of the universe.
         </p>
         <b>
             <p>&copy;2023 Elaine Elaine</p>

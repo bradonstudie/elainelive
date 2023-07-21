@@ -29,6 +29,11 @@ body {
 body {
     color: rgb(var(--foreground-rgb));
     background: (var(--background-rgb));
+    -webkit-font-smoothing: none;
+    font-smoothing: none;
+    text-rendering: optimizeLegibility;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: pixelated;
 }
 
 @media (prefers-color-scheme: dark) {
