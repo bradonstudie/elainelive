@@ -6,7 +6,14 @@ export const Footer = () => (
             padding: "0rem 0.25rem",
         }}
     >
-        <p style={{ marginBottom: "0.25rem;", fontFamily: "cursive" }}>
+        <p
+            style={{
+                marginBottom: "0.25rem;",
+                fontWeight: "600",
+                fontFamily: "sans-serif",
+            }}
+            className="rainbow"
+        >
             If you meditate upon this website, you will understand the secrets
             of the universe.
         </p>
