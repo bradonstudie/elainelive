@@ -29,6 +29,11 @@ body {
 body {
     color: rgb(var(--foreground-rgb));
     background: (var(--background-rgb));
+    -webkit-font-smoothing: none;
+    font-smoothing: none;
+    text-rendering: optimizeLegibility;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: pixelated;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,4 +48,34 @@ body {
 
 .music-link:visited {
     color: inherit;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 50rem;
+    height: auto;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+    .hero-image {
+        width: auto;
+        max-width: none;
+        height: 70vh;
+    }
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th {
+    text-align: start;
+}
+
+td,
+th {
+    padding: 0.25rem;
 }
