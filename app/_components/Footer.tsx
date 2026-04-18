@@ -18,7 +18,7 @@ export const Footer = () => (
       universe.
     </p>
     <b>
-      <p>&copy;2023 Elaine Elaine</p>
+      <p>&copy;2026 Immortal Torment</p>
     </b>
   </footer>
 );

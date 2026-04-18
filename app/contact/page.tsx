@@ -19,9 +19,12 @@ export default function Contact() {
       />
       <h2>
         You can <i>E-Mail</i>{" "}
-        <span style={{ fontFamily: "sans-serif" }}>elaine elaine</span>
+        <span style={{ fontFamily: "sans-serif" }}>Immortal Torment</span>
         &trade; at{" "}
-        <a href="mailto:elaineelainehc@gmail.com">elaineelainehc@gmail.com</a>.
+        <a href="mailto:immortaltormentoh@gmail.com">
+          immortaltormentoh@gmail.com
+        </a>
+        .
       </h2>
     </>
   );

@@ -17,7 +17,7 @@ export default function Music() {
       />
       <h2>
         You can stream{" "}
-        <span style={{ fontFamily: "sans-serif" }}>elaine elaine</span>
+        <span style={{ fontFamily: "sans-serif" }}>Immortal Torment</span>
         &trade; <i>on the web</i> at any of these hyperlinks:
       </h2>
       <ul style={{ fontSize: "1.25rem", margin: "1rem 0rem" }}>

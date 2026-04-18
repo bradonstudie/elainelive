@@ -7,8 +7,8 @@ import { Navigation } from "@/app/_components/Navigation";
 import { SiteTitle } from "@/app/_components/SiteTitle";
 
 export const metadata: Metadata = {
-  title: "elaine elaine live",
-  description: "elaine elaine is a band that makes music",
+  title: "immortal torment live",
+  description: "immortal torment is a band",
 };
 
 export default function RootLayout({
