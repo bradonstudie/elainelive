@@ -28,17 +28,19 @@ body {
   image-rendering: pixelated;
 }
 
-.active {
-  color: red;
+a,
+a:visited {
+  color: black;
 }
 
-.music-link:visited {
-  color: inherit;
+a:hover,
+a.active {
+  color: red;
 }
 
 .hero-image {
   width: 100%;
-  max-width: 50rem;
+  max-width: 40rem;
   height: auto;
 }
 
